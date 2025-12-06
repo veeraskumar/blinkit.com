@@ -1,0 +1,63 @@
+[
+  {
+    "district": "Chennai",
+    "areas": [
+      { "Egmore": 600008 },
+      { "T. Nagar": 600017 },
+      { "Anna Nagar": 600040 },
+      { "Adyar": 600020 },
+      { "Velachery": 600042 }
+    ]
+  },
+  {
+    "district": "Coimbatore",
+    "areas": [
+      { "Gandhipuram": 641012 },
+      { "R.S. Puram": 641002 },
+      { "Peelamedu": 641004 }
+    ]
+  },
+  {
+    "district": "Madurai",
+    "areas": [
+      { "Anna Nagar": 625020 },
+      { "Goripalayam": 625002 },
+      { "Mattuthavani": 625007 }
+    ]
+  },
+  {
+    "district": "Kanyakumari",
+    "areas": [
+      { "Nagercoil": 629001 },
+      { "Kuzhithurai": 629161 },
+      { "Padmanabhapuram": 629175 }
+    ]
+  },
+  {
+    "district": "Tirunelveli",
+    "areas": [{ "Tirunelveli Junction": 627001 }, { "Palayamkottai": 627002 }]
+  },
+  {
+    "district": "Vellore",
+    "areas": [{ "Vellore Fort": 632004 }, { "Katpadi": 632007 }]
+  },
+  {
+    "district": "Salem",
+    "areas": [
+      { "Salem Bazaar": 636001 },
+      { "Gugai": 636006 },
+      { "Hasthampatti": 636007 },
+      { "Suramangalam": 636005 },
+      { "Fairlands": 636016 }
+    ]
+  },
+  {
+    "district": "Erode",
+    "areas": [
+      { "Erode HO": 638001 },
+      { "Karungalpalayam": 638003 },
+      { "Veerappanchatram": 638004 },
+      { "Erode Collectorate": 638011 }
+    ]
+  }
+]
