@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gray: rgb(102, 102, 102);
+  --color-green: rgb(12, 131, 31);
+}
+
+.body {
+  font-family: sans-serif;
+}
