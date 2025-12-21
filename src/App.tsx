@@ -1,10 +1,12 @@
 import "./App.css";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <div>
-      Welcome to Project
-    </div>
+    <>
+      <div>Body</div>
+      <Footer />
+    </>
   );
 };
 
