@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+
+@theme {
+  --font-okra: "var(--font-okra)";
+}
+
+/* globals.css */
+@keyframes scrollY {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-100%); }
+}
+
+.auto-scroll-y {
+  animation: scrollY 30s linear infinite;
+}
