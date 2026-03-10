@@ -1,10 +1,11 @@
 export type CardDataType = {
   id: number;
-  category: string;
-  imgUrl: string;
-  deliveryTime: number;
   title: string;
+  category: string;
+  deliveryTime: number;
   quanity: string;
   discount?: number;
   price: number;
+  imgUrl: string;
+  recommended: boolean;
 };

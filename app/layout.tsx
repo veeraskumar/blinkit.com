@@ -5,9 +5,23 @@ import Header from "./components/header";
 import Footer from "./components/footer";
 
 const okra = localFont({
-  src: "./fonts/okra.woff",
-  weight: "400",
-  style: "normal",
+  src: [
+    {
+      path: "./fonts/Okra-Regular.woff2",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "./fonts/Okra-Medium.woff2",
+      weight: "500",
+      style: "normal",
+    },
+    {
+      path: "./fonts/Okra-Bold.woff2",
+      weight: "600",
+      style: "normal",
+    },
+  ],
   variable: "--font-okra",
 });
 

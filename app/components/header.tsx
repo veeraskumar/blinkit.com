@@ -70,7 +70,7 @@ export default function Header() {
           </button>
         </div>
       </div>
-      <div className="lg:hidden w-[95%] fixed bottom-0 m-5 flex items-center justify-between p-2 bg-[#0c831f] text-white rounded-2xl">
+      <div className="lg:hidden w-[95%] fixed bottom-0 md:m-5 m-2 flex items-center justify-between p-2 bg-[#0c831f] text-white rounded-2xl">
         <div className="flex items-center gap-1">
           <IoCartOutline className="text-3xl bg-green-300 rounded-lg p-0.5" />
           <div className="text-sm">

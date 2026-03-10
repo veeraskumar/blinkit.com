@@ -69,7 +69,7 @@ const categories: LinksType[] = [
 ];
 
 export default function Footer() {
-  const [isFooterOpen, setIsFooterOpen] = useState(true);
+  const [isFooterOpen, setIsFooterOpen] = useState(false);
 
   const showFooter = (): void => {
     setIsFooterOpen((prev) => !prev);
@@ -78,7 +78,7 @@ export default function Footer() {
   return (
     <>
       <div
-        className="text-gray font-bold lg:hidden md:hidden flex justify-between items-center m-2"
+        className={`text-gray font-bold lg:hidden md:hidden flex justify-between items-center m-2 ${!isFooterOpen && "pb-25"}`}
         onClick={showFooter}
       >
         <span>India&apos;s last minute app - blinkit</span>
