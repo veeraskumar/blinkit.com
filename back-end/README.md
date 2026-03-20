@@ -1,0 +1,40 @@
+```
+└── back-end
+    └── app
+        └── api
+            └── v1
+                └── routes
+                    ├── auth_router.py
+                    ├── categories_router.py
+                    ├── products_router.py
+                    ├── sub_categories_router.py
+        └── core
+            ├── conf.py
+            ├── security.py
+        └── database
+            ├── db.py
+        └── models
+            ├── category_model.py
+            ├── product_model.py
+            ├── subcategory_model.py
+        └── repos
+            ├── categories_repo.py
+            ├── products_repo.py
+            ├── sub_categories_repo.py
+        └── schemas
+            ├── categories_schema.py
+            ├── products_schema.py
+            ├── sub_categories_schema.py
+        └── services
+            ├── categories_service.py
+            ├── products_service.py
+            ├── sub_categories_service.py
+        └── utils
+            ├── image_handler.py
+            ├── title.py
+        └── main.py
+    ├── .gitignore
+    ├── .python-version
+    ├── README.md
+    └── requirements.txt
+```
