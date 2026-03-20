@@ -1,19 +1,12 @@
-from sqlalchemy import Column, String, Boolean, Integer, JSON, ForeignKey, Sequence
+from sqlalchemy import Column, String, Boolean, Integer, JSON, ForeignKey
 from sqlalchemy.orm import relationship
 from app.database.db import Base
-
-product_id_seq = Sequence("product_id_seq", start=1000)
 
 
 class Product(Base):
     __tablename__ = "products"
 
-    products_id = Column(
-        Integer,
-        product_id_seq,
-        primary_key=True,
-        server_default=product_id_seq.next_value(),
-    )
+    products_id = Column(Integer, primary_key=True, autoincrement=True)
     title = Column(String, nullable=False, index=True)
     quantity = Column(Integer, nullable=False)
     price = Column(Integer, nullable=False)

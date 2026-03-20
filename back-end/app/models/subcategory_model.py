@@ -1,19 +1,12 @@
-from sqlalchemy import String, Integer, Column, Boolean, ForeignKey, Sequence
+from sqlalchemy import String, Integer, Column, Boolean, ForeignKey
 from sqlalchemy.orm import relationship
 from app.database.db import Base
-
-sub_categories_id_seq = Sequence("sub_categories_id_seq", start=1000)
 
 
 class SubCategory(Base):
     __tablename__ = "subcategories"
 
-    sub_categories_id = Column(
-        Integer,
-        sub_categories_id_seq,
-        primary_key=True,
-        server_default=sub_categories_id_seq.next_value(),
-    )
+    sub_categories_id = Column(Integer, primary_key=True, autoincrement=True)
     sub_categories_title = Column(String, nullable=False, index=True)
     sub_categories_image = Column(String, nullable=False)
     sub_categories_recommended = Column(Boolean, nullable=False)
